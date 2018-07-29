@@ -1,20 +1,12 @@
-# Project Title
+# Project
 
 A maze rendering java console project
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ### Prerequisites
 
-JDK (Java SE Development Kit). For Java Developers. Includes a complete JRE plus tools for developing, debugging, and monitoring Java applications. To download the latest version of the Java Development Kit (JDK), go to [JDK downloads](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html#javasejdk).
+JDK (Java SE Development Kit) including a complete JRE plus tools for developing, debugging, and monitoring Java applications. To download the latest version of JDK, go to [JDK downloads](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html#javasejdk).
 
-```
-Give examples
-```
-
-### Installing
+### Compiling
 
 A step by step series of examples that tell you how to get a development env running
 
