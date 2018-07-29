@@ -4,7 +4,7 @@ A maze rendering java console project takes a Road Grid and its connectivity as 
 
 ### Prerequisites
 
-JDK (Java SE Development Kit). To download the latest version of JDK, go to [JDK downloads](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html#javasejdk).
+JDK (Java SE Development Kit). To download the latest version of JDK, go to http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html#javasejdk
 
 ### Compiling and Runing
 
@@ -20,16 +20,16 @@ Run the program:
 java Main
 ```
 
-Type the two -line input command, for example:
-* The first line represents a Road Grid, where a 3 x 3 Road Grid can generate a 7 x 7 Render Grid (walls around road cells)
-* The second line represents the connectivity of Road Grid, where cell[0,1] is connected with cell[0,2], and cell[0,0] is connected with cell[1,0]
+Type the two-line input command, for example:
+* a Road Grid, where a 3 x 3 Road Grid can generate a 7 x 7 Render Grid (walls around road cells)
+* the connectivity of Road Grid, where cell[0,1] is connected with cell[0,2], and cell[0,0] is connected with cell[1,0]
 
 ```
 3 3
 0,1 0,2;0,0 1,0
 ```
 
-The output (corresponds to the above example), where :
+The output (corresponds to the above example):
 
 ```
 [W] [W] [W] [W] [W] [W] [W]
@@ -43,7 +43,7 @@ The output (corresponds to the above example), where :
 
 ## Running the Tests
 
-After the program is compiled, type this to run test cases:
+After the program is compiled, you can also type this command to run test cases:
 ```
 java Main test
 ```
