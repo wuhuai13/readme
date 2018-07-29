@@ -20,13 +20,27 @@ Run the program:
 java Main
 ```
 
-Type the input command, for example:
+Type the two -line input command, for example:
+The first line represents the road cells in the maze,where "3 3" corresponds to a 7 x 7 Render Grid
+The second line represents the connectivity between road cells, where cell[0,1] and cell[0,0] are connected with cell[0,2] and cell[1,0]
 
 ```
 3 3
-0,1 0,2;0,0 1,0;0,1 1,1
+0,1 0,2;0,0 1,0
 ```
-End with an example of getting some data out of the system or using it for a little demo
+
+The output (for the above example), where :
+
+```
+[W] [W] [W] [W] [W] [W] [W]
+[W] [R] [W] [R] [R] [R] [W]
+[W] [R] [W] [R] [W] [W] [W]
+[W] [R] [W] [R] [W] [R] [W]
+[W] [W] [W] [W] [W] [W] [W]
+[W] [R] [W] [R] [W] [R] [W]
+[W] [W] [W] [W] [W] [W] [W]
+```
+
 
 ## Running the Tests
 
