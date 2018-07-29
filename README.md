@@ -1,6 +1,6 @@
 # Maze Render
 
-A maze rendering java console project takes a cell road grid and a relationship of cell connectivity as input command string, and print a maze as output string 
+A maze rendering java console project takes a Road Grid and its connectivity as input command string, and print a maze as output string 
 
 ### Prerequisites
 
@@ -21,15 +21,15 @@ java Main
 ```
 
 Type the two -line input command, for example:
-The first line represents the road cells in the maze,where "3 3" corresponds to a 7 x 7 Render Grid
-The second line represents the connectivity between road cells, where cell[0,1] and cell[0,0] are connected with cell[0,2] and cell[1,0]
+* The first line represents a Road Grid, where a 3 x 3 Road Grid can generate a 7 x 7 Render Grid (walls around road cells)
+* The second line represents the connectivity of Road Grid, where cell[0,1] is connected with cell[0,2], and cell[0,0] is connected with cell[1,0]
 
 ```
 3 3
 0,1 0,2;0,0 1,0
 ```
 
-The output (for the above example), where :
+The output (corresponds to the above example), where :
 
 ```
 [W] [W] [W] [W] [W] [W] [W]
@@ -41,37 +41,22 @@ The output (for the above example), where :
 [W] [W] [W] [W] [W] [W] [W]
 ```
 
-
 ## Running the Tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+After the program is compiled, type this to run test cases:
 ```
-Give an example
+java Main test
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
+A sample output will be:
 ```
-Give an example
+Valid input command test cases: 5 total, 5 succeed, 0 fail
+Incorrect command format test cases: 7 total, 7 succeed, 0 fail
+Invalid number format test cases: 7 total, 7 succeed, 0 fail
+Number out of range test cases: 6 total, 6 succeed, 0 fail
+Maze format error test cases: 5 total, 5 succeed, 0 fail
+Maze rendering test cases: 5 total, 5 succeed, 0 fail
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
 
 ## Authors
 
