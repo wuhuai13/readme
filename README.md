@@ -1,30 +1,34 @@
 # Maze Render
 
-A maze rendering java console project takes a cell road grid and a relation of cell connectivity as input command string, and print a maze string 
+A maze rendering java console project takes a cell road grid and a relationship of cell connectivity as input command string, and print a maze as output string 
 
 ### Prerequisites
 
 JDK (Java SE Development Kit). To download the latest version of JDK, go to [JDK downloads](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html#javasejdk).
 
-### Compiling
+### Compiling and Runing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Compile all plain text .java sources (javac utility comes with JDK):
 
 ```
-Give the example
+javac *.java
 ```
 
-And repeat
+Run the program:
 
 ```
-until finished
+java Main
 ```
 
+Type the input command, for example:
+
+```
+3 3
+0,1 0,2;0,0 1,0;0,1 1,1
+```
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Running the Tests
 
 Explain how to run the automated tests for this system
 
