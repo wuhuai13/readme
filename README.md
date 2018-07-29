@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+JDK (Java SE Development Kit). For Java Developers. Includes a complete JRE plus tools for developing, debugging, and monitoring Java applications. To download the latest version of the Java Development Kit (JDK), go to [JDK downloads](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html#javasejdk).
 
 ```
 Give examples
