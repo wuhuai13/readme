@@ -1,10 +1,10 @@
-# Project
+# Maze Render
 
-A maze rendering java console project
+A maze rendering java console project takes a cell road grid and a relation of cell connectivity as input command string, and print a maze string 
 
 ### Prerequisites
 
-JDK (Java SE Development Kit) including a complete JRE plus tools for developing, debugging, and monitoring Java applications. To download the latest version of JDK, go to [JDK downloads](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html#javasejdk).
+JDK (Java SE Development Kit). To download the latest version of JDK, go to [JDK downloads](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html#javasejdk).
 
 ### Compiling
 
